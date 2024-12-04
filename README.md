@@ -197,6 +197,7 @@ public class Credit extends Payment {
 }
 ```
 ***Hubungan Antar Kelas:***
+
 **Customer-Order:**
 Satu pelanggan (```Customer```) dapat memiliki banyak pesanan (```Order```), tetapi satu pesanan hanya terkait dengan satu pelanggan.
 
