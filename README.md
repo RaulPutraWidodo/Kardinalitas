@@ -1,7 +1,6 @@
 # Kardinalitas
 
 ![soal (2)](https://github.com/user-attachments/assets/81682793-fb63-41b1-a131-ba04363cddce)
-peg)
 
 ***1. Class ```Customer```***
 Fungsi:
