@@ -196,3 +196,15 @@ public class Credit extends Payment {
     public boolean authorized() { /* Mengecek validasi kartu kredit */ }
 }
 ```
+***Hubungan Antar Kelas:***
+**Customer-Order:**
+Satu pelanggan (```Customer```) dapat memiliki banyak pesanan (```Order```), tetapi satu pesanan hanya terkait dengan satu pelanggan.
+
+**Order-OrderDetail:**
+Satu pesanan (```Order```) dapat memiliki beberapa item detail (```OrderDetail```), yang merepresentasikan item yang dipesan.
+
+**OrderDetail-Item:**
+Satu detail pesanan (```OrderDetail```) terkait dengan satu barang (```Item```).
+
+**Order-Payment:**
+Satu pesanan (```Order```) bisa memiliki satu atau lebih pembayaran (```Payment```), dan pembayaran bisa menggunakan metode yang berbeda (tunai, cek, atau kartu kredit).
